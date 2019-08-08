@@ -16,11 +16,11 @@
 }
 
 .panel {
-    padding: 0 18px;
-    background-color: white;
+    background-color: rgb(175, 173, 173);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    width: 25%;
   }
 
   .accordion:after {
