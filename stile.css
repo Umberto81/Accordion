@@ -21,16 +21,16 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     width: 25%;
-  }
+}
 
-  .accordion:after {
+.accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
     float: right;
     margin-left: 5px;
-  }
-  
-  .active:after {
+}
+
+.active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
+}
